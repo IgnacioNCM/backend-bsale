@@ -12,7 +12,7 @@ const getProductos = async (req, res = response) => {
 
     productos.forEach(element => {
         if (element.url_image === null || element.url_image === "") {
-            element.url_image = '/front-end/assets/Imagen_no_disponible.png';
+            element.url_image = '/Imagen_no_disponible.png';
         }
     });
 

@@ -21,7 +21,7 @@ const buscarProductos = async (termino = '', res = response) => {
 
     products.forEach(element => {
         if (element.url_image === null || element.url_image === "") {
-            element.url_image = '/front-end/assets/Imagen_no_disponible.png';
+            element.url_image = '/Imagen_no_disponible.png';
         }
     });
 
